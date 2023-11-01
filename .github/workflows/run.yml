@@ -25,4 +25,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 0046a187e94e5b5010af4b098f5da926
-          USERNAME: ${{ kimgwon }}
+          USERNAME: ${{ github.kimgwon }}
